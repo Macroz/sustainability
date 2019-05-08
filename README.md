@@ -34,9 +34,9 @@ To estimate how much it costs to compensate for (your) life so far
 
 For someone who lived an average life, we can find average CO2 emissions per capita from The World Bank (TWB). We have used Finland as reference because it's my home country.
 
-A person's average life emissions can be estimated by multiplying the yearly averages with an estimate on how relatively a person of that age causes emissions. This is estimated by Zagheni (ZAG) for US but we can use it as an estimate for Finland as well.
+A person's emissions for an age, i.e. during a certain year in their life can be estimated. This is done by Zagheni (ZAG) for US, but we use it as an estimate for Finland as well. From this data we cacalculate a multiplier of how much that age causes emissions compared to the average over all years.
 
-We can then sum up the yearly average emissions scaled by the age factor and get a total of emissions up until a point in life.
+A person's total life CO2 emissions are then estimated by multiplying the yearly averages for that country (Finland) with the multipliers of age that year.
 
 What to do with it? For example, one can calculate how much to compensate for past behavior up until one compensates for current emissions. Let's talk about being net negative in CO2 over your whole lifetime!
 
