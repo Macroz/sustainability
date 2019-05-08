@@ -14,8 +14,8 @@ To estimate how much CO2 was produced in a given year per capita
 To estimate how much a person of a given age creates CO2 emissions compared to average over lifetime.
 
 ```clj
-(co2-multiplier-by-age-finland 1) ; => 0.1433125171218903
-(co2-multiplier-by-age-finland 39) ; => 1.2666295009137765
+(co2-multiplier-by-age-in-finland 1) ; => 0.1433125171218903
+(co2-multiplier-by-age-in-finland 39) ; => 1.2666295009137765
 ```
 
 To estimate how many tons of CO2 emissions there were for someone alive during a certain time period

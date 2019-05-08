@@ -237,7 +237,7 @@
         co2 (lerp age before after)]
     co2))
 
-(defn co2-multiplier-by-age-finland
+(defn co2-multiplier-by-age-in-finland
   "Relative CO2 emissions of a person of given `age` in Finland.
 
   Multiplier of 1.0 is the average emissions by age."
@@ -247,7 +247,7 @@
 (defn co2-over-life-in-finland
   "Estimates the CO2 emissions of a person living in Finland from given `birth-year` up until `end-year`."
   [birth-year end-year]
-  (sum #(* (co2-multiplier-by-age-finland (inc (- % birth-year)))
+  (sum #(* (co2-multiplier-by-age-in-finland (inc (- % birth-year)))
            (co2-by-year-in-finland %))
        (range birth-year end-year)))
 
@@ -260,8 +260,8 @@
   (co2-by-year-in-finland 1979) ; => 11.4034573078207
   (co2-by-year-in-finland 2000) ; => 10.1284741400511
 
-  (co2-multiplier-by-age-finland 1) ; => 0.1433125171218903
-  (co2-multiplier-by-age-finland 39) ; => 1.2666295009137765
+  (co2-multiplier-by-age-in-finland 1) ; => 0.1433125171218903
+  (co2-multiplier-by-age-in-finland 39) ; => 1.2666295009137765
 
   (co2-over-life-in-finland 1969 2008) ; => 311.03141542755174
   (co2-over-life-in-finland 1979 2018) ; => 297.5844637544411
