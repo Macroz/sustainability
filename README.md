@@ -30,13 +30,25 @@ To estimate how much it costs to compensate for (your) life so far
 (* (co2-over-life-in-finland 1979 2018) 12.87)) => 3829.9120485196568
 ```
 
+## Story & Methodology
+
+For someone who lived an average life, we can find average CO2 emissions per capita from The World Bank (TWB). We have used Finland as reference because it's my home country.
+
+A person's average life emissions can be estimated by multiplying the yearly averages with an estimate on how relatively a person of that age causes emissions. This is estimated by Zagheni (ZAG) for US but we can use it as an estimate for Finland as well.
+
+We can then sum up the yearly average emissions scaled by the age factor and get a total of emissions up until a point in life.
+
+What to do with it? For example, one can calculate how much to compensate for past behavior up until one compensates for current emissions. Let's talk about being net negative in CO2 over your whole lifetime!
+
+Yes compensation is not the same as not producing any emissions. Reduction is key but don't stop there. Compensate already!
+
 ## License
 
 The code is released to the Public Domain. Use it for much good!
 
 The data included, is covered by their respective licenses detailed below.
 
-## CO2 emissions by age
+## ZAG: CO2 emissions by age
 - [The leverage of demographic dynamics on carbon dioxide emissions: does age structure matter?](https://www.demogr.mpg.de/en/projects_publications/publications_1904/journal_articles/the_leverage_of_demographic_dynamics_on_carbon_dioxide_emissions_does_age_structure_matter_4131.htm)
 - Zagheni, E.
 - Demography, 48:1, 371-399 (2011)
@@ -44,7 +56,7 @@ The data included, is covered by their respective licenses detailed below.
 - See also [CO2 Age Structure](https://www.mpg.de/4635546/CO2_age_structure)
 - Distributed under the terms of the Creative Commons Attribution Noncommercial License which permits any noncommercial use, distribution, and reproduction in any medium, provided the original author(s) and source are credited.
 
-## CO2 emissions (metric tons per capita)
+## TWB: CO2 emissions (metric tons per capita)
 - [The World Bank](https://databank.worldbank.org/data/source/world-development-indicators)
 - EN.ATM.CO2E.PC
 - Carbon dioxide emissions are those stemming from the burning of fossil fuels and the manufacture of cement. They include carbon dioxide produced during consumption of solid, liquid, and gas fuels and gas flaring.
