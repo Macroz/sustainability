@@ -34,7 +34,7 @@ To estimate how much it costs to compensate for (your) life so far
 
 For someone who lived an average life, we can find average CO2 emissions per capita from The World Bank (TWB). We have used Finland as reference because it's my home country.
 
-A person's emissions for an age, i.e. during a certain year in their life can be estimated. This is done by Zagheni (ZAG) for US, but we use it as an estimate for Finland as well. From this data we calculate a multiplier of how much that age causes emissions compared to the average over all years.
+A person's emissions for an age, i.e. during a certain year in their life can be estimated. This is done by Zagheni (ZAG) for US, but we use it as an estimate for Finland as well. From this data we calculate a multiplier of how much that age causes emissions compared to the average over all ages.
 
 A person's total life CO2 emissions are then estimated by multiplying the yearly averages for that country (Finland) with the multipliers of age that year.
 
