@@ -39,7 +39,7 @@
 
 ;;;; Data
 
-;; Zagheni, E.
+;; ZAG
 (def raw-co2-data-by-age
   [[0 0]
    [1.28290793667969 1.82167385111227]
@@ -160,7 +160,7 @@
 (def average-co2-by-age (avg (map second raw-co2-data-by-age)))
 
 
-;; The World Bank
+;; TWB
 (def raw-co2-data-by-year-finland
   [[1969 8.204342329931]
    [1970 8.76964388174735]
