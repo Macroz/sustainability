@@ -40,7 +40,7 @@ A person's total life CO2 emissions are then estimated by multiplying the yearly
 
 What to do with it? For example, one can calculate how much to compensate for past behavior up until one compensates for current emissions. Let's talk about being net negative in CO2 over your whole lifetime!
 
-Yes compensation is not the same as not producing any emissions. Reduction is key but don't stop there. Compensate already!
+Yes, compensation is not the same as not producing any emissions. Reduction is key, but we don't stop there. Compensate already! Fix your past wrongs!
 
 ## License
 
